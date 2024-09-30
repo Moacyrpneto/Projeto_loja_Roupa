@@ -1,0 +1,88 @@
+.navbar-nav .nav-link.active {
+    color: #FFF;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: #d3d3d3;
+    z-index: 10;
+}
+
+.carousel {
+    z-index: 1;
+}
+
+.carousel-custom {
+    height: 400px;
+    overflow: hidden;
+}
+
+.carousel-inner img {
+    height: 100%;
+    object-fit: cover;
+}
+
+.nav-link {
+    text-align: center;
+}
+
+#inicio {
+    margin-top: 20px;
+}
+
+.dropdown-menu {
+    text-align: center;
+}
+
+
+
+.dropD h2 {
+    border-bottom: 3px solid #0d6efd;
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.dropdown-item a {
+    text-decoration: none;
+}
+
+section {
+    height: 100vh;
+    background-color: #FFF;
+    padding: 75px;
+    margin-bottom:50px;
+}
+
+.post {
+    margin-bottom: 24px;
+}
+
+.post p {
+    margin-left: 25px;
+}
+
+.post h4, h6 {
+    margin-left: 25px;
+}
+
+.post a {
+    margin-left: 20px;
+
+}
+
+.linha {
+    border-top: 3px solid #0d6efd;
+    margin-top: 20px;
+}
+
+strong {
+    display: block;
+    margin-left: 25px;
+    padding-bottom: 20px;
+}

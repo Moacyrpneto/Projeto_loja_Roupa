@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./codigos/bootstrap.min.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header id="cabecalho">
+        <div class="navbar navbar-expand-lg">
+            <div class="container">
+                    <div>
+                        <img src="./imagens/logotipo-cabecalho.jpg" alt="" style="height: 50px;">
+                    </div>
+                    <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                        <span class="navbar navbar-toggler-icon"></span>
+                    </button>
+                    <nav class="collapse navbar-collapse justify-content-end" id="menu">
+                        <ul class="nav navbar-nav nav-pills">
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#inicio">Início</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#produtos">Produtos</a>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#promocao">Promoções</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">contato</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+    </header>
+    <div>
+        <div id="carousel-exemplo" class="carousel carousel-fade slide carousel-custom" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div data-bs-interval="3000" class="carousel-item active">
+                    <img class="d-block w-100" src="./imagens/carousel-um.png" alt="">
+                </div>
+                <div data-bs-interval="3000" class="carousel-item">
+                    <img class="d-block w-100" src="./imagens/carousel-dois.png" alt="">
+                </div>
+                <div data-bs-interval="3000" class="carousel-item">
+                    <img class="d-block w-100" src="./imagens/carousel-tres.png" alt="">
+                </div>
+            </div>
+            <button data-bs-target="#carousel-exemplo" data-bs-slide="prev" class="carousel-control-prev" type="button">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button data-bs-target="#carousel-exemplo" data-bs-slide="next" class="carousel-control-next" type="button">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carousel-exemplo" class="active" data-bs-slide-to="0"></button>
+                <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="2"></button>
+            </div>
+        </div>
+    </div>
+    <div class="container dropD">
+        <h2>Busca de Roupas</h2>
+        <div class="btn-group w-100">
+            <button class="btn btn-primary dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown">
+                <span class="sr-only">Pesquisar</span>
+            </button>
+            <ul class="dropdown-menu w-100">
+                <li class="dropdown-item">
+                    <a href="#aba1">Calças</a>
+                </li>
+                <li class="dropdown-item">
+                    <a href="#aba2">Camisa</a>
+                </li>
+                <li class="dropdown-item">
+                    <a href="#aba3">Moletom</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div data-bs-spy="scroll" data-bs-target="#cabecalho">
+        <div class="container">
+            <section id="inicio">
+                <h2>Início</h2>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <article class="card">
+                                <img src="./imagens/modeloum.jpg" alt="">
+                            </article>
+                        </div>
+                        <div class="col-4">
+                            <article class="card">
+                                <img src="./imagens/modeloquatro.jpg" alt="">
+                            </article>
+                        </div>
+                        <div class="col-4">
+                            <article class="card">
+                                <img src="./imagens/modelodois.jpg" alt="">
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div class=" container linha">
+
+            </div>
+            <section id="produtos">
+                <h2>Produtos</h2>
+                <div class="container">
+                    <nav class="nav nav-pills">
+                        <button data-bs-toggle="tab" data-bs-target="#aba1" class="nav-link active" type="button">Camisetas</button>
+                        <button data-bs-toggle="tab" data-bs-target="#aba2" class="nav-link" type="button">Calças</button>
+                        <button data-bs-toggle="tab" data-bs-target="#aba3" class="nav-link" type="button">Moletom</button>
+                    </nav>
+                    <div class="tab-content">
+                        <div class="tab-pane active" id="aba1">
+                            Camisetas Hugo Boss
+                            <div class="row">
+                                <div class="col-lg-4 col-md-6 col-12 mb-4 post">
+                                    <img src="./imagens/camisa.png" alt="">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Camisa Boss</h4>
+                                    <p class="card-text">
+                                        Camisa estampada
+                                    </p>
+                                    <h6>PP ao GG</h6>
+                                    <strong>R$:99,00</strong>
+                                    </div>
+                                    <a class="btn btn-primary btn-sm">Adicionar ao carrinho</a>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-12 mb-4 post">
+                                    <img src="./imagens/camisa.png" alt="">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Camisa Boss</h4>
+                                    <p class="card-text">
+                                        Camisa estampada
+                                    </p>
+                                    <h6>PP ao GG</h6>
+                                    <strong>R$:99,00</strong>
+                                    </div>
+                                    <a class="btn btn-primary btn-sm">Adicionar ao carrinho</a>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-12 mb-4 post">
+                                    <img src="./imagens/camisa.png" alt="">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Camisa Boss</h4>
+                                    <p class="card-text">
+                                        Camisa estampada
+                                    </p>
+                                    <h6>PP ao GG</h6>
+                                    <strong>R$:99,00</strong>
+                                    </div>
+                                    <a class="btn btn-primary btn-sm">Adicionar ao carrinho</a>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-12 mb-4 post">
+                                    <img src="./imagens/camisa.png" alt="">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Camisa Boss</h4>
+                                    <p class="card-text">
+                                        Camisa estampada
+                                    </p>
+                                    <h6>PP ao GG</h6>
+                                    <strong>R$:99,00</strong>
+                                    </div>
+                                    <a class="btn btn-primary btn-sm">Adicionar ao carrinho</a>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-12 mb-4 post">
+                                    <img src="./imagens/camisa.png" alt="">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Camisa Boss</h4>
+                                    <p class="card-text">
+                                        Camisa estampada
+                                    </p>
+                                    <h6>PP ao GG</h6>
+                                    <strong>R$:99,00</strong>
+                                    </div>
+                                    <a class="btn btn-primary btn-sm">Adicionar ao carrinho</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="aba2">
+                            Calças Hugo Boss
+                            <div class="row">
+                                <div class="col-lg-4 col-md-6 col-12 mb-4 post">
+                                    <img src="./imagens/calca.png" alt="">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Calça Hugo Boss</h4>
+                                    <p class="card-text">
+                                        Calça de moletom
+                                    </p>
+                                    <h6>PP ao GG</h6>
+                                    <strong>R$:199,00</strong>
+                                    </div>
+                                    <a class="btn btn-primary btn-sm">Adicionar ao carrinho</a>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-12 mb-4 post">
+                                    <img src="./imagens/calca.png" alt="">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Calça Hugo Boss</h4>
+                                    <p class="card-text">
+                                        Calça de moletom
+                                    </p>
+                                    <h6>PP ao GG</h6>
+                                    <strong>R$:199,00</strong>
+                                    </div>
+                                    <a class="btn btn-primary btn-sm">Adicionar ao carrinho</a>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-12 mb-4 post">
+                                    <img src="./imagens/calca.png" alt="">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Calça Hugo Boss</h4>
+                                    <p class="card-text">
+                                        Calça de moletom
+                                    </p>
+                                    <h6>PP ao GG</h6>
+                                    <strong>R$:199,00</strong>
+                                    </div>
+                                    <a class="btn btn-primary btn-sm">Adicionar ao carrinho</a>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-12 mb-4 post">
+                                    <img src="./imagens/calca.png" alt="">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Calça Hugo Boss</h4>
+                                    <p class="card-text">
+                                        Calça de moletom
+                                    </p>
+                                    <h6>PP ao GG</h6>
+                                    <strong>R$:199,00</strong>
+                                    </div>
+                                    <a class="btn btn-primary btn-sm">Adicionar ao carrinho</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="aba3">
+                            Moletom Hugo Boss
+                            <div class="row">
+                                <div class="col-lg-4 col-md-6 col-12 mb-4 post">
+                                    <img src="./imagens/moleta.png" alt="">
+                                    <h4>Moletom Hugo Boss</h4>
+                                    <p>
+                                        Moletom Canguru
+                                    </p>
+                                    <h6>PP ao GG</h6>
+                                    <strong>R$:149,99</strong>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-12 mb-4 post">
+                                    <img src="./imagens/moleta.png" alt="">
+                                    <h4>Moletom Hugo Boss</h4>
+                                    <p>
+                                        Moletom Canguru
+                                    </p>
+                                    <h6>PP ao GG</h6>
+                                    <strong>R$:149,99</strong>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-12 mb-4 post">
+                                    <img src="./imagens/moleta.png" alt="">
+                                    <h4>Moletom Hugo Boss</h4>
+                                    <p>
+                                        Moletom Canguru
+                                    </p>
+                                    <h6>PP ao GG</h6>
+                                    <strong>R$:149,99</strong>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div class="container linha">
+                
+            </div>
+            <section id="promocao"> 
+                <h2>Promoção</h2>
+            </section>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="./codigos/bootstrap.bundle.min.js"></script>
+</body>
+</html>
