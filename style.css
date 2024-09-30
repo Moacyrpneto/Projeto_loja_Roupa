@@ -53,10 +53,10 @@ header {
 }
 
 section {
-    height: 100vh;
+    height: 100%;
     background-color: #FFF;
     padding: 75px;
-    margin-bottom:50px;
+    padding-top: 75px;
 }
 
 .post {
