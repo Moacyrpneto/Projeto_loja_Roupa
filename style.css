@@ -82,7 +82,73 @@ section {
 }
 
 strong {
-    display: block;
+    display: flex;
     margin-left: 25px;
     padding-bottom: 20px;
+}
+
+.post del {
+    color: #CCC;
+    font-size:17px;
+    margin-left: 25px;
+    display: flex;
+}
+
+form input,
+form label{
+    margin-top: 10px;
+}
+
+form #aceito-termos {
+    margin-top: 10px;
+}
+
+form button {
+    margin-top: 10px;
+}
+
+textarea {
+    resize: none;
+}
+
+.error {
+    display: block;
+    color: red;
+    font-size: 16px;
+    margin-bottom: 1px;
+}
+
+.form-check-label,
+.form-check-input {
+    margin-top: 20px;
+}
+
+footer {
+    background-color:#d3d3d3;; /* Cor de fundo */
+    padding: 10px; /* Espaçamento interno */
+    color: rgb(0, 0, 0); /* Cor do texto */
+    text-align: left; /* Centraliza o texto */
+    position: relative; /* Pode ser útil para posicionamento */
+    bottom: 0; /* Fixa o footer na parte inferior se necessário */
+    width: 100%; /* Para que ocupe toda a largura */
+}
+
+footer li img {
+    height: 50px;
+    margin-top: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer li {
+    list-style: none;
+    margin-left: 15px;
+}
+
+footer .container {
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 10px;
 }
